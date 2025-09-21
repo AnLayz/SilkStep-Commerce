@@ -7,7 +7,7 @@ This repository contains a PostgreSQL analytics setup for SilkStep Commerce.
 It imports raw CSVs into a relational schema, validates structures (types, PK/FK), runs baseline SQL checks (LIMIT, WHERE+ORDER BY, GROUP BY, JOIN), provides 10 analytical SQL queries (`queries.sql`), and includes a small Python script (`main.py`) that connects to the DB and prints results to the terminal.
 
 ## Main analytics (screenshot)
-> Put a screenshot here (you may replace it later). For example, the output of `python main.py` or a `GROUP BY` result from `psql`.
+
 ![Main analytics](images/main-analytics.png)
 
 ---
@@ -36,4 +36,5 @@ CREATE DATABASE fecomdb; \c fecomdb
 \i 'C:/fecom-assignment1/schema.sql'
 -- quick visibility check after you import CSVs:
 SELECT * FROM orders LIMIT 10;
+
 
