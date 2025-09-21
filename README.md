@@ -12,6 +12,10 @@ It imports raw CSVs into a relational schema, validates structures (types, PK/FK
 
 ---
 
+## ER diagram
+
+![ER Diagram](er/er-diagram.png)
+
 ## How to run (step-by-step)
 
 ### Requirements
