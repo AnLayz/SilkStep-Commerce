@@ -19,7 +19,7 @@ It imports raw CSVs into a relational schema, validates structures (types, PK/FK
 ## How to run (step-by-step)
 
 ### Requirements
-- PostgreSQL running locally (in my setup: `127.0.0.1:5433`)
+- PostgreSQL running locally 
 - Python 3.8+
 
 ## Tools & resources
@@ -36,5 +36,6 @@ CREATE DATABASE fecomdb; \c fecomdb
 \i 'C:/fecom-assignment1/schema.sql'
 -- quick visibility check after you import CSVs:
 SELECT * FROM orders LIMIT 10;
+
 
 
