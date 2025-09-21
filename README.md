@@ -33,7 +33,7 @@ This project uses the **Fecom Inc — E-com Marketplace Orders & CRM** dataset f
 
 - **Kaggle page:**  
   https://www.kaggle.com/datasets/cemeraan/fecom-inc-e-com-marketplace-orders-data-crm
-- **Direct file selector (Sellers CSV):**  
+
 
 
 ### Create DB and apply schema (psql)
@@ -43,6 +43,7 @@ CREATE DATABASE fecomdb; \c fecomdb
 \i 'C:/fecom-assignment1/schema.sql'
 -- quick visibility check after you import CSVs:
 SELECT * FROM orders LIMIT 10;
+
 
 
 
