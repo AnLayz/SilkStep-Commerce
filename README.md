@@ -44,6 +44,24 @@ CREATE DATABASE fecomdb; \c fecomdb
 -- quick visibility check after you import CSVs:
 SELECT * FROM orders LIMIT 10;
 
+## How to Run
+
+### Requirements
+- PostgreSQL (local or containerized)  
+- Python 3.11+  
+- Libraries:  
+  - `pandas`  
+  - `matplotlib`  
+  - `plotly`  
+  - `sqlalchemy`  
+  - `openpyxl`  
+  - `psycopg2`  
+
+### Setup
+```bash
+pip install -r requirements.txt
+
+
 
 
 
